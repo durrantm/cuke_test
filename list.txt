@@ -1,0 +1,327 @@
+# 62 cases
+Feature: Onboard new SDETs
+
+  Scenario: First Day                                                                             # features/lesson_001.feature:4
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day arrives                                                                  # features/step_definitions/lesson_001_steps.rb:5
+    Then Michael meets them in the lobby                                                          # features/step_definitions/lesson_001_steps.rb:29
+      
+      expected: "Done"
+           got: "NOT DONE"
+      
+      (compared using ==)
+       (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/lesson_001_steps.rb:30:in `"Michael meets them in the lobby"'
+      features/lesson_001.feature:7:in `Then Michael meets them in the lobby'
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day arrives                                                                  # features/step_definitions/lesson_001_steps.rb:5
+    Then We get badges on the fifth floor security area                                           # features/step_definitions/lesson_001_steps.rb:33
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then We have breakfast in 406                                                                 # features/step_definitions/lesson_001_steps.rb:37
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Basic building layout, doors, floors, bathrooms, kitchen                                 # features/step_definitions/lesson_001_steps.rb:41
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Temporary Work locations, info in excel                                                  # features/step_definitions/lesson_001_steps.rb:45
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then VDI, laptops, email logins                                                               # features/step_definitions/lesson_001_steps.rb:49
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then The Agile testing book, who's read it?                                                   # features/step_definitions/lesson_001_steps.rb:53
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day arrives                                                                  # features/step_definitions/lesson_001_steps.rb:5
+    Then Lets git my cucumber directory                                                           # features/step_definitions/lesson_001_steps.rb:57
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day arrives                                                                  # features/step_definitions/lesson_001_steps.rb:5
+    Then Push my project to github                                                                # features/step_definitions/lesson_001_steps.rb:61
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day arrives                                                                  # features/step_definitions/lesson_001_steps.rb:5
+    Then Get cygwin                                                                               # features/step_definitions/lesson_001_steps.rb:65
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day arrives                                                                  # features/step_definitions/lesson_001_steps.rb:5
+    Then Create or Use their github accounts, get ssh keys local                                  # features/step_definitions/lesson_001_steps.rb:69
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day arrives                                                                  # features/step_definitions/lesson_001_steps.rb:5
+    Then Clone my repo                                                                            # features/step_definitions/lesson_001_steps.rb:73
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then They should know about the Test Busters Guild, other slack channels and sharepoint sites # features/step_definitions/lesson_001_steps.rb:77
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then They should know the Manifesto for Agile Software Development                            # features/step_definitions/lesson_001_steps.rb:81
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then They should know the Testing Manifesto                                                   # features/step_definitions/lesson_001_steps.rb:85
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then History of rules -> guidelines -> best practices -> Good Practices                       # features/step_definitions/lesson_001_steps.rb:89
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Waterfall and Agile comparison, MINDMAP                                                  # features/step_definitions/lesson_001_steps.rb:93
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then They should know ten principles for Agile Testing                                        # features/step_definitions/lesson_001_steps.rb:97
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then First in group, history of sallie mae testing                                            # features/step_definitions/lesson_001_steps.rb:101
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Why we write tests MINDMAP                                                               # features/step_definitions/lesson_001_steps.rb:105
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Agile testing quadrants                                                                  # features/step_definitions/lesson_001_steps.rb:109
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Agile test pyramid                                                                       # features/step_definitions/lesson_001_steps.rb:113
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Lets use ruby and write some rspec tests too                                             # features/step_definitions/lesson_001_steps.rb:117
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then TDD [Stacey]                                                                             # features/step_definitions/lesson_001_steps.rb:121
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then BDD [Michael]                                                                            # features/step_definitions/lesson_001_steps.rb:125
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Cultural Challenges                                                                      # features/step_definitions/lesson_001_steps.rb:129
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Pairing[Stacey]                                                                          # features/step_definitions/lesson_001_steps.rb:133
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Whole team approach                                                                      # features/step_definitions/lesson_001_steps.rb:137
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Seeking failures to learn                                                                # features/step_definitions/lesson_001_steps.rb:141
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Mock and stub MINDMAP                                                                    # features/step_definitions/lesson_001_steps.rb:145
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Readable tests                                                                           # features/step_definitions/lesson_001_steps.rb:149
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Why true isn't true                                                                      # features/step_definitions/lesson_001_steps.rb:153
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then The two hard problems in computing                                                       # features/step_definitions/lesson_001_steps.rb:157
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Sandi Metz Guidelines                                                                    # features/step_definitions/lesson_001_steps.rb:161
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then The Book - Agile Testing                                                                 # features/step_definitions/lesson_001_steps.rb:165
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Speed over exhaustive detail [Stacey]                                                    # features/step_definitions/lesson_001_steps.rb:169
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then How slow is slow for a suite                                                             # features/step_definitions/lesson_001_steps.rb:173
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then How fast is fast for a test                                                              # features/step_definitions/lesson_001_steps.rb:177
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Browser test categories - happy, sad, optional  [EXERCISE]                               # features/step_definitions/lesson_001_steps.rb:181
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Black Box vs. White box vs. Grey box                                                     # features/step_definitions/lesson_001_steps.rb:185
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then AB Testing [EXAMPLE]                                                                     # features/step_definitions/lesson_001_steps.rb:189
+    Given SDETs are having their first week at Sallie Mae and need training                       # features/step_definitions/lesson_001_steps.rb:1
+    When Their first day                                                                          # features/step_definitions/lesson_001_steps.rb:9
+    Then Blue Green Graduated releases                                                            # features/step_definitions/lesson_001_steps.rb:193
+
+  Scenario: Second Day                                                      # features/lesson_001.feature:173
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Agile Testing Quadrants, details and aspects                       # features/step_definitions/lesson_001_steps.rb:197
+      
+      expected: "Done"
+           got: "NOT DONE"
+      
+      (compared using ==)
+       (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/lesson_001_steps.rb:198:in `"Agile Testing Quadrants, details and aspects"'
+      features/lesson_001.feature:176:in `Then Agile Testing Quadrants, details and aspects'
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Agile Testing Pyramid, details                                     # features/step_definitions/lesson_001_steps.rb:201
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Working on Agile Teams [Stacey]                                    # features/step_definitions/lesson_001_steps.rb:205
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Shift Left. Cost Over time. Test plans before code is written      # features/step_definitions/lesson_001_steps.rb:209
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Continuous Feedback, e.g. CI                                       # features/step_definitions/lesson_001_steps.rb:213
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Deliver Value, in Sprints                                          # features/step_definitions/lesson_001_steps.rb:217
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Face to Face, Project Pod                                          # features/step_definitions/lesson_001_steps.rb:221
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Continuous Improvement, Retros                                     # features/step_definitions/lesson_001_steps.rb:225
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Respond to change, good practices not best, try things out         # features/step_definitions/lesson_001_steps.rb:229
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Self-organize, what works for the team                             # features/step_definitions/lesson_001_steps.rb:233
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Focus on People, NOTY resources                                    # features/step_definitions/lesson_001_steps.rb:237
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Enjoy, have outings                                                # features/step_definitions/lesson_001_steps.rb:241
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Working within SAFe                                                # features/step_definitions/lesson_001_steps.rb:245
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then High level SAFe concepts - limit one hour                          # features/step_definitions/lesson_001_steps.rb:249
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Selecting an element with the Goldilocks approach [EXAMPLES]       # features/step_definitions/lesson_001_steps.rb:253
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then XPath vs CSS.  MINDMAP                                             # features/step_definitions/lesson_001_steps.rb:257
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then ID vs class vs name                                                # features/step_definitions/lesson_001_steps.rb:261
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then data attributes                                                    # features/step_definitions/lesson_001_steps.rb:265
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Framework supplied, e.g. ror name                                  # features/step_definitions/lesson_001_steps.rb:269
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Page Objects                                                       # features/step_definitions/lesson_001_steps.rb:273
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then DRY                                                                # features/step_definitions/lesson_001_steps.rb:277
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Naming                                                             # features/step_definitions/lesson_001_steps.rb:281
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then How to organize them                                               # features/step_definitions/lesson_001_steps.rb:285
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then EXAMPLE                                                            # features/step_definitions/lesson_001_steps.rb:289
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Maintainability Essentials                                         # features/step_definitions/lesson_001_steps.rb:293
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Within 1 case                                                      # features/step_definitions/lesson_001_steps.rb:297
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then 1 case vs 1000 cases                                               # features/step_definitions/lesson_001_steps.rb:301
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Technical Debt                                                     # features/step_definitions/lesson_001_steps.rb:305
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Learn from fellow SDETs in the #test-busters-guild                 # features/step_definitions/lesson_001_steps.rb:309
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Present lunch and learns internally - to both dev and he’s !       # features/step_definitions/lesson_001_steps.rb:313
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Look for testing conferences to go to                              # features/step_definitions/lesson_001_steps.rb:317
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Working with developers [Marwan]                                   # features/step_definitions/lesson_001_steps.rb:321
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their second day                                                   # features/step_definitions/lesson_001_steps.rb:13
+    Then Visual Studio tips and tricks                                      # features/step_definitions/lesson_001_steps.rb:325
+
+  Scenario: Third Day                                                       # features/lesson_001.feature:306
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their third day                                                    # features/step_definitions/lesson_001_steps.rb:17
+    Then cygwin                                                             # features/step_definitions/lesson_001_steps.rb:329
+      
+      expected: "Done"
+           got: "NOT DONE"
+      
+      (compared using ==)
+       (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/lesson_001_steps.rb:330:in `"cygwin"'
+      features/lesson_001.feature:309:in `Then cygwin'
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their third day                                                    # features/step_definitions/lesson_001_steps.rb:17
+    Then The UNIX philosophy                                                # features/step_definitions/lesson_001_steps.rb:333
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their third day                                                    # features/step_definitions/lesson_001_steps.rb:17
+    Then Ruby                                                               # features/step_definitions/lesson_001_steps.rb:337
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their third day                                                    # features/step_definitions/lesson_001_steps.rb:17
+    Then Cucumber                                                           # features/step_definitions/lesson_001_steps.rb:341
+
+  Scenario: Fourth Day                                                      # features/lesson_001.feature:323
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their fourth day                                                   # features/step_definitions/lesson_001_steps.rb:21
+    Then Building Tour                                                      # features/step_definitions/lesson_001_steps.rb:345
+      
+      expected: "Done"
+           got: "NOT DONE"
+      
+      (compared using ==)
+       (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/lesson_001_steps.rb:346:in `"Building Tour"'
+      features/lesson_001.feature:326:in `Then Building Tour'
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their fourth day                                                   # features/step_definitions/lesson_001_steps.rb:21
+    Then SM Business                                                        # features/step_definitions/lesson_001_steps.rb:353
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their fourth day                                                   # features/step_definitions/lesson_001_steps.rb:21
+    Then Automation                                                         # features/step_definitions/lesson_001_steps.rb:357
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their fourth day                                                   # features/step_definitions/lesson_001_steps.rb:21
+    Then Hit The Ground Running                                             # features/step_definitions/lesson_001_steps.rb:361
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their fourth day                                                   # features/step_definitions/lesson_001_steps.rb:21
+    Then Coding and Testing                                                 # features/step_definitions/lesson_001_steps.rb:369
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their fourth day                                                   # features/step_definitions/lesson_001_steps.rb:21
+    Then Key Success Factors                                                # features/step_definitions/lesson_001_steps.rb:373
+
+  Scenario: Fifth Day                                                       # features/lesson_001.feature:348
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their fifth day                                                    # features/step_definitions/lesson_001_steps.rb:25
+    Then Email                                                              # features/step_definitions/lesson_001_steps.rb:377
+      
+      expected: "Done"
+           got: "NOT DONE"
+      
+      (compared using ==)
+       (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/lesson_001_steps.rb:378:in `"Email"'
+      features/lesson_001.feature:351:in `Then Email'
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their fifth day                                                    # features/step_definitions/lesson_001_steps.rb:25
+    Then Access when on teams                                               # features/step_definitions/lesson_001_steps.rb:381
+    Given SDETs are having their first week at Sallie Mae and need training # features/step_definitions/lesson_001_steps.rb:1
+    When Their fifth day                                                    # features/step_definitions/lesson_001_steps.rb:25
+    Then Other                                                              # features/step_definitions/lesson_001_steps.rb:385
+
+Failing Scenarios:
+cucumber features/lesson_001.feature:4 # Scenario: First Day
+cucumber features/lesson_001.feature:173 # Scenario: Second Day
+cucumber features/lesson_001.feature:306 # Scenario: Third Day
+cucumber features/lesson_001.feature:323 # Scenario: Fourth Day
+cucumber features/lesson_001.feature:348 # Scenario: Fifth Day
+
+5 scenarios (5 failed)
+264 steps (5 failed, 249 skipped, 10 passed)
+0m0.090s
